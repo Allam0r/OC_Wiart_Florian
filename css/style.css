@@ -236,6 +236,13 @@ button {
     font-weight: 700;
 }
 
+.lcard_list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .lcard {
     width: 250px;
     height: 200px;
@@ -294,6 +301,12 @@ button {
 
 .grey_star {
     color: #f2f2f2;
+}
+
+.more_content {
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: 19px;
 }
 
 /* Footer css */
