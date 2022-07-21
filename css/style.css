@@ -235,7 +235,7 @@ button {
 
 .title_lodging h3 {
     margin: 0 0 20px 0;
-    font-size: 19px;
+    font-size: 22px;
     font-weight: 700;
 }
 
@@ -328,6 +328,12 @@ button {
 
 .top_famous h3 {
     margin: 0;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.top_famous i {
+    font-size: 20px;
 }
 
 .fcard_list {
