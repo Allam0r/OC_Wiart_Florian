@@ -247,7 +247,7 @@ button {
 }
 
 .title_lodging {
-    padding: 0 40px 0 40px;
+    padding: 0 40px;
 }
 
 .title_lodging h3 {
@@ -280,7 +280,7 @@ button {
 .lcard_img {
     width: auto;
     flex: 1;
-    height: 60%;
+    height: 65%;
     overflow: hidden;
     padding: 5px;
 }
@@ -293,7 +293,7 @@ button {
 }
 
 .lcard_content {
-    height: 40%;
+    height: 35%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -335,16 +335,20 @@ button {
     background-color: #f2f2f2;
     border-radius: 20px;
     width: 32%;
+    padding: 0 40px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
 }
 
 .top_famous {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-block-start: 40px;
 }
 
 .top_famous h3 {
-    margin: 32px 0 32px 0;
     font-size: 22px;
     font-weight: 700;
 }
@@ -354,14 +358,15 @@ button {
 }
 
 .fcard_list {
-    display: grid;
-    grid-template-rows: auto repeat(3, 1fr);
-    align-items: flex-start;
-    row-gap: 16px;
+    margin-block-end: 40px;
+    row-gap: 40px;
+    display: flex;
+    flex-direction: column;
 }
 
 .fcard {
-    width: 345px;
+    width: auto;
+    flex: 1;
     height: 145px;
     background-color: white;
     border-radius: 20px;
@@ -374,14 +379,12 @@ button {
 
 .fcard a {
     display: flex;
-    flex-direction: row;
-    align-items: center;
     height: 100%;
     width: 100%;
 }
 
 .fcard_img {
-    width: 132px;
+    width: 40%;
     height: 100%;
     overflow: hidden;
     padding: 5px 20px 5px 5px;
@@ -396,7 +399,7 @@ button {
 
 .fcard_content {
     height: 100%;
-    width: 213px;
+    width: 60%;
     display: flex;
     flex-direction: column;
     padding: 20px 37px 0 0;
