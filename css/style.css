@@ -345,23 +345,19 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-block-start: 40px;
 }
 
 .top_famous h3 {
     font-size: 22px;
     font-weight: 700;
-}
-
-.top_famous i {
-    font-size: 20px;
+    margin-block-start: 40px;
 }
 
 .fcard_list {
     margin-block-end: 40px;
-    row-gap: 40px;
     display: flex;
     flex-direction: column;
+    gap: 40px;
 }
 
 .fcard {
