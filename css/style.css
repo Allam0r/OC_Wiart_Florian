@@ -268,7 +268,7 @@ button {
 
 .lcard {
     width: 30%;
-    height: 200px;
+    height: 210px;
     background-color: white;
     border-radius: 20px;
     box-shadow: -4px 4px 11px 5px rgb(0 0 0 / 20%);
@@ -343,30 +343,30 @@ button {
     gap: 40px;
     display: flex;
     flex-direction: column;
+    gap: 40px;
 }
 
 .top_famous {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-block-start: 40px;
 }
 
 .top_famous h3 {
     font-size: 22px;
     font-weight: 700;
-    margin-block-start: 40px;
 }
 
 .fcard_list {
-    margin-block-end: 40px;
+    padding-bottom: 40px;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    row-gap: 40px;
 }
 
 .fcard {
     width: auto;
-    flex: 1;
     height: 145px;
     background-color: white;
     border-radius: 20px;
@@ -401,42 +401,44 @@ button {
     width: 60%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
     flex-direction: column;
-    padding: 10px 20px 0 0;
+    padding: 15px 0;
 }
 
 .fcard_content h3 {
     font-size: 16px;
     font-weight: 700;
+    padding-right: 40%;
 }
 
 .fcard_content p {
     font-size: 15px;
-    padding-top: 5px;
+    padding-bottom: 45px;
 }
 
 .fcard_rating {
     display: flex;
     flex-direction: row;
     font-size: 13px;
-    padding: 40px 0 10px 0;
 }
 
 /* 
-* Css du footer
+* Css du bloc "footer"
 */
 
 footer {
     background-color: #f2f2f2;
     display: flex;
+    flex: 1;
     flex-direction: row;
     padding: 30px 50px;
 }
 
 .footer_list {
     display: flex;
-    gap: 300px;
+    flex: 1;
+    flex-wrap: wrap;
+    gap: 20%;
 }
 
 .footer_section a {
