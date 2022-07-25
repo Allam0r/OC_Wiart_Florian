@@ -26,8 +26,8 @@ p {
 
 header {
     display: flex;
-    height: 75px;
-    padding: 0 50px;
+    height: 100px;
+    padding: 0 60px;
 }
 
 header a {
@@ -63,8 +63,7 @@ nav a:hover {
 }
 
 main {
-    padding: 0 50px;
-    margin: 20px 0;
+    padding: 0 60px;
 }
 
 .title_first {
@@ -72,12 +71,12 @@ main {
 }
 
 .title_first h1 {
-    font-size: 24px;
+    font-size: 23px;
+    padding-bottom: 10px;
 }
 
 .title_first p {
-    font-size: 17px;
-    margin: 0;
+    font-size: 18px;
 }
 
 /* *Css de la barre de recherche*/
@@ -156,7 +155,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     height: 100%;
 }
@@ -175,7 +174,7 @@ button {
     justify-content: center;
     flex-wrap: wrap;
     height: 100%;
-    border: 2px solid #f2f2f2;
+    border: 2px solid #dddcdc;
     border-radius: 25px;
     margin-right: 15px;
     position: relative;
@@ -212,7 +211,7 @@ button {
     flex-direction: row;
     align-items: center;
     height: 25px;
-    gap: 5px;
+    gap: 10px;
 }
 
 .info p {
@@ -229,7 +228,6 @@ button {
     align-items: center;
     justify-content: center;
     font-size: 14px;
-    font-weight: bold;
 }
 
 /* * Css du bloc "Hébergements Marseille"*/
@@ -255,7 +253,7 @@ button {
 }
 
 .title_lodging h3 {
-    font-size: 22px;
+    font-size: 23px;
     font-weight: 700;
     margin-block-start: 40px;
 }
@@ -330,7 +328,7 @@ button {
 .more_content {
     padding: 0 40px;
     font-weight: 700;
-    font-size: 19px;
+    font-size: 20px;
 }
 
 /* * Css du bloc "Les plus populaires"*/
@@ -354,7 +352,7 @@ button {
 }
 
 .top_famous h3 {
-    font-size: 22px;
+    font-size: 23px;
     font-weight: 700;
 }
 
@@ -419,7 +417,7 @@ button {
 
 .top_fcardcontent h3 {
     font-size: 18px;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .top_fcardcontent p {
@@ -435,7 +433,7 @@ button {
 /* *Css du bloc "Activités à Marseille" */
 
 .third_section {
-    padding: 25px 0;
+    padding: 30px 0 50px 0;
 }
 
 .title_activity {
@@ -665,7 +663,7 @@ footer {
     display: flex;
     flex: 1;
     flex-direction: row;
-    padding: 30px 50px;
+    padding: 30px 60px;
 }
 
 .footer_list {
