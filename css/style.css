@@ -450,11 +450,11 @@ button {
     display: flex;
     flex-direction: row;
     height: 500px;
-    gap: 30px;
 }
 
 .activity_1 {
     width: 25%;
+    padding-right: 15px;
 }
 
 .big_card {
@@ -503,6 +503,7 @@ button {
     display: flex;
     flex-direction: column;
     row-gap: 30px;
+    padding: 0 15px;
 }
 
 .medium1_card {
@@ -579,6 +580,7 @@ button {
 
 .activity_3 {
     width: 25%;
+    padding: 0 15px;
 }
 
 .activity_4 {
@@ -586,6 +588,7 @@ button {
     display: flex;
     flex-direction: column;
     row-gap: 30px;
+    padding-left: 15px;
 }
 
 .small2_card {
