@@ -73,13 +73,16 @@ main {
 
 .title_first h1 {
     font-size: 24px;
-    /* margin: 0; */
 }
 
 .title_first p {
     font-size: 17px;
     margin: 0;
 }
+
+/* 
+*Css de la barre de recherche
+*/
 
 .search_zone {
     height: 50px;
@@ -138,7 +141,12 @@ button {
 
 #mobile_button {
     display: none;
+    border-radius: 15px;
 }
+
+/* 
+*Css de la barre des filtres
+*/
 
 .filter_list {
     display: flex;
@@ -233,7 +241,7 @@ button {
 */
 
 .second_section {
-    margin-top: 25px;
+    margin: 25px 0 50px 0;
     display: flex;
     flex-direction: row;
     gap: 3%;
@@ -420,6 +428,109 @@ button {
     display: flex;
     flex-direction: row;
     font-size: 13px;
+}
+
+/* 
+*Css du bloc "Activités à Marseille" 
+*/
+
+.title_activity {
+    font-size: 20px;
+    font-weight: 700;
+    margin-block-end: 20px;
+}
+
+.activity_list {
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+}
+
+.activity_1 {
+    width: 25%;
+    padding-right: 15px;
+}
+
+.big_card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: -4px 4px 11px 5px rgb(0 0 0 / 20%);
+    height: 500px;
+}
+
+.big_card:hover {
+    transform: scale(1.02);
+}
+
+.big_card a {
+    width: 100%;
+    height: 100%;
+}
+
+.bigacard_img {
+    height: 440px;
+    overflow: hidden;
+}
+
+.bigacard_img img {
+    border-radius: 20px 20px 0 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.bigacard_content {
+    height: 60px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+.bigacard_content h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.activity_2 {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.medium1_card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: -4px 4px 11px 5px rgb(0 0 0 / 20%);
+    height: 300px;
+}
+
+.medium1_card:hover {
+    transform: scale(1.02);
+}
+
+.medium1_card a {
+    width: 100%;
+    height: 100%;
+}
+
+.medium1_img {
+    height: 240px;
+    overflow: hidden;
+}
+
+.medium1_img img {
+    border-radius: 20px 20px 0 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.medium1_content {
+    height: 60px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
 }
 
 /* 
