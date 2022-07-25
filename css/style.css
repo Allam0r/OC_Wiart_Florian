@@ -407,15 +407,22 @@ button {
     flex: 1;
     flex-wrap: wrap;
     flex-direction: column;
+    justify-content: space-between;
     padding: 15px 0;
 }
 
-.fcard_content h3 {
-    font-size: 16px;
-    font-weight: 700;
+.top_fcardcontent {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
-.fcard_content p {
+.top_fcardcontent h3 {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.top_fcardcontent p {
     font-size: 15px;
 }
 
