@@ -358,6 +358,10 @@ button {
     font-weight: 700;
 }
 
+.top_famous i {
+    font-size: 21px;
+}
+
 .fcard_list {
     padding-bottom: 40px;
     display: flex;
@@ -400,6 +404,7 @@ button {
 .fcard_content {
     width: 60%;
     display: flex;
+    flex: 1;
     flex-wrap: wrap;
     flex-direction: column;
     padding: 15px 0;
@@ -412,7 +417,6 @@ button {
 
 .fcard_content p {
     font-size: 15px;
-    padding-bottom: 45px;
 }
 
 .fcard_rating {
