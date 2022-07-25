@@ -228,7 +228,9 @@ button {
     font-weight: bold;
 }
 
-/* Hébergements Marseille */
+/* 
+* Css du bloc "Hébergements Marseille"
+*/
 
 .second_section {
     margin-top: 25px;
@@ -329,7 +331,9 @@ button {
     font-size: 19px;
 }
 
-/* Les plus populaires */
+/* 
+* Css du bloc "Les plus populaires"
+*/
 
 .bloc_famous {
     background-color: #f2f2f2;
@@ -419,7 +423,9 @@ button {
     padding: 40px 0 10px 0;
 }
 
-/* Footer css */
+/* 
+* Css du footer
+*/
 
 footer {
     background-color: #f2f2f2;
