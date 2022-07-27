@@ -28,6 +28,8 @@ p {
     margin-inline-end: 0px;
 }
 
+/* *Css du Header */
+
 header {
     display: flex;
     height: 100px;
@@ -65,6 +67,8 @@ nav a:hover {
     color: #0065FC;
     border-top: 3px solid #0065FC;
 }
+
+/* *Css du bloc main */
 
 main {
     padding: 0 60px;
@@ -308,7 +312,7 @@ button {
 
 .lcard_content h3 {
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .lcard_content p {
@@ -415,13 +419,16 @@ button {
 
 .top_fcardcontent {
     display: flex;
+    width: 70%;
     flex-direction: column;
-    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 5px;
 }
 
 .top_fcardcontent h3 {
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 800;
 }
 
 .top_fcardcontent p {
@@ -461,7 +468,7 @@ button {
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-    box-shadow: -4px 4px 11px 5px rgb(0 0 0 / 20%);
+    box-shadow: -4px 4px 11px 5px rgb(0 0 0 / 5%);
     height: 500px;
 }
 
@@ -495,7 +502,7 @@ button {
 
 .bigacard_content h3 {
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .activity_2 {
@@ -510,7 +517,7 @@ button {
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-    box-shadow: -4px 4px 11px 5px rgb(0 0 0 / 20%);
+    box-shadow: -4px 4px 11px 5px rgb(0 0 0 / 5%);
     height: 285px;
 }
 
@@ -542,11 +549,16 @@ button {
     align-items: center;
 }
 
+.medium1_content h3 {
+    font-size: 18px;
+    font-weight: 800;
+}
+
 .small1_card {
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-    box-shadow: -4px 4px 11px 5px rgb(0 0 0 / 20%);
+    box-shadow: -4px 4px 11px 5px rgb(0 0 0 / 5%);
     height: 185px;
 }
 
@@ -578,6 +590,11 @@ button {
     align-items: center;
 }
 
+.small1_content h3 {
+    font-size: 18px;
+    font-weight: 800;
+}
+
 .activity_3 {
     width: 25%;
     padding: 0 15px;
@@ -595,7 +612,7 @@ button {
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-    box-shadow: -4px 4px 11px 5px rgb(0 0 0 / 20%);
+    box-shadow: -4px 4px 11px 5px rgb(0 0 0 / 5%);
     height: 205px;
 }
 
@@ -627,11 +644,16 @@ button {
     align-items: center;
 }
 
+.small2_content h3 {
+    font-size: 18px;
+    font-weight: 800;
+}
+
 .medium2_card {
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-    box-shadow: -4px 4px 11px 5px rgb(0 0 0 / 20%);
+    box-shadow: -4px 4px 11px 5px rgb(0 0 0 / 5%);
     height: 265px;
 }
 
@@ -661,6 +683,11 @@ button {
     padding: 0 20px;
     display: flex;
     align-items: center;
+}
+
+.medium2_content h3 {
+    font-size: 18px;
+    font-weight: 800;
 }
 
 /* * Css du bloc "footer"*/
