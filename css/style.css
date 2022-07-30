@@ -159,6 +159,7 @@ button {
     display: flex;
     align-items: center;
     flex-direction: row;
+    flex-wrap: wrap;
     margin: 25px 0;
     gap: 15px;
 }
@@ -294,7 +295,7 @@ button {
 .lcard_img {
     width: auto;
     flex: 1;
-    height: 65%;
+    height: 60%;
     overflow: hidden;
     padding: 5px;
 }
@@ -307,7 +308,7 @@ button {
 }
 
 .lcard_content {
-    height: 35%;
+    height: 40%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -698,7 +699,6 @@ button {
 footer {
     background-color: #f2f2f2;
     display: flex;
-    flex: 1;
     flex-direction: row;
     padding: 30px 60px;
 }
@@ -706,7 +706,6 @@ footer {
 .footer_list {
     display: flex;
     flex: 1;
-    flex-wrap: wrap;
     justify-content: flex-start;
     gap: 20%;
 }
