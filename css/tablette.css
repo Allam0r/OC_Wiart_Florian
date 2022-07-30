@@ -18,11 +18,12 @@
         gap: 0;
     }
 
-    /* * Second section */
+    /* * Bloc "Hébergement à Marseille" (Second section) */
 
     .second_section {
         flex-direction: column-reverse;
         gap: 20px;
+        padding: 25px 40px;
     }
 
     .bloc_lodging {
@@ -37,7 +38,7 @@
         height: 100px;
     }
 
-    /* * Bloc "Activités à Marseille" */
+    /* * Bloc "Activités à Marseille" (Third section) */
 
     .title_activity {
         padding: 0 40px 0 40px;
@@ -57,29 +58,17 @@
         padding: 15px 40px;
     }
 
-    .big_card {
-        height: 200px;
-    }
-
-    .bigacard_img {
-        height: 140px;
-    }
-
+    .big_card,
     .medium1_card,
-    .small1_card {
-        height: 200px;
-    }
-
-    .medium1_img,
-    .small1_img {
-        height: 140px;
-    }
-
+    .small1_card,
     .small2_card,
     .medium2_card {
         height: 200px;
     }
 
+    .bigacard_img,
+    .medium1_img,
+    .small1_img,
     .small2_img,
     .medium2_img {
         height: 140px;
