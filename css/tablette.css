@@ -1,0 +1,99 @@
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    /* * Main (first section) */
+
+    main {
+        padding: 0px;
+    }
+
+    .first_section {
+        padding: 0 40px;
+    }
+
+    /* * Barre des filtres */
+
+    .filter_list {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
+    }
+
+    /* * Second section */
+
+    .second_section {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .bloc_lodging {
+        width: 100%;
+    }
+
+    .bloc_famous {
+        width: 100%;
+    }
+
+    .fcard {
+        height: 100px;
+    }
+
+    /* * Bloc "Activités à Marseille" */
+
+    .title_activity {
+        padding: 0 40px 0 40px;
+    }
+
+    .activity_list {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .activity_1,
+    .activity_2,
+    .activity_3,
+    .activity_4 {
+        width: auto;
+        flex: 1;
+        padding: 15px 40px;
+    }
+
+    .big_card {
+        height: 200px;
+    }
+
+    .bigacard_img {
+        height: 140px;
+    }
+
+    .medium1_card,
+    .small1_card {
+        height: 200px;
+    }
+
+    .medium1_img,
+    .small1_img {
+        height: 140px;
+    }
+
+    .small2_card,
+    .medium2_card {
+        height: 200px;
+    }
+
+    .small2_img,
+    .medium2_img {
+        height: 140px;
+    }
+
+    /* * Bloc footer */
+
+    footer {
+        padding: 30px 40px;
+    }
+
+    .footer_list {
+        gap: 0;
+        justify-content: space-between;
+    }
+
+}
