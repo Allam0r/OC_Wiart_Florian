@@ -1,83 +1,82 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
+  /* * Main (first section) */
 
-    /* * Main (first section) */
+  main {
+    padding: 0px;
+  }
 
-    main {
-        padding: 0px;
-    }
+  .first_section {
+    padding: 0 40px;
+  }
 
-    .first_section {
-        padding: 0 40px;
-    }
+  /* * Barre des filtres */
 
-    /* * Barre des filtres */
+  .filter_list {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+  }
 
-    .filter_list {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 0;
-    }
+  /* * Bloc "Hébergement à Marseille" (Second section) */
 
-    /* * Bloc "Hébergement à Marseille" (Second section) */
+  .second_section {
+    flex-direction: column-reverse;
+    gap: 20px;
+    padding: 25px 40px;
+  }
 
-    .second_section {
-        flex-direction: column-reverse;
-        gap: 20px;
-        padding: 25px 40px;
-    }
+  .bloc_lodging {
+    width: 100%;
+  }
 
-    .bloc_lodging {
-        width: 100%;
-    }
+  .bloc_famous {
+    width: 100%;
+  }
 
-    .bloc_famous {
-        width: 100%;
-    }
+  /* * Bloc "Activités à Marseille" (Third section) */
 
-    /* * Bloc "Activités à Marseille" (Third section) */
+  .title_activity {
+    padding: 0 40px 0 40px;
+  }
 
-    .title_activity {
-        padding: 0 40px 0 40px;
-    }
+  .activity_list {
+    flex-direction: column;
+    height: auto;
+  }
 
-    .activity_list {
-        flex-direction: column;
-        height: auto;
-    }
+  .activity_1,
+  .activity_2,
+  .activity_3,
+  .activity_4 {
+    width: auto;
+    flex: 1;
+    padding: 15px 40px;
+  }
 
-    .activity_1,
-    .activity_2,
-    .activity_3,
-    .activity_4 {
-        width: auto;
-        flex: 1;
-        padding: 15px 40px;
-    }
+  .big_card,
+  .medium1_card,
+  .small1_card,
+  .small2_card,
+  .medium2_card {
+    height: 200px;
+  }
 
-    .big_card,
-    .medium1_card,
-    .small1_card,
-    .small2_card,
-    .medium2_card {
-        height: 200px;
-    }
+  .bigacard_img,
+  .medium1_img,
+  .small1_img,
+  .small2_img,
+  .medium2_img {
+    height: 140px;
+  }
 
-    .bigacard_img,
-    .medium1_img,
-    .small1_img,
-    .small2_img,
-    .medium2_img {
-        height: 140px;
-    }
+  /* * Bloc footer */
 
-    /* * Bloc footer */
+  footer {
+    padding: 30px 40px;
+  }
 
-    footer {
-        padding: 30px 40px;
-    }
-
-    .footer_list {
-        gap: 0;
-        justify-content: space-between;
-    }
+  .footer_list {
+    gap: 0;
+    justify-content: space-between;
+  }
 }
