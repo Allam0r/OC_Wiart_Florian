@@ -1,1 +1,122 @@
-@media screen and (max-width: 767px) {}
+@media screen and (max-width: 767px) {
+
+    /* *Css du Header */
+
+    header {
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+    }
+
+    header a {
+        padding: 0;
+    }
+
+    /* *Css du bloc main (first section) */
+
+    main {
+        padding: 0px;
+    }
+
+
+    /* *Css de la barre de recherche*/
+
+    button {
+        display: none;
+    }
+
+    #mobile_button {
+        display: flex;
+    }
+
+    /* * Css du bloc "Hébergements Marseille" (second section) */
+
+    .second_section {
+        flex-direction: column-reverse;
+        gap: 0;
+        padding: 25px 0px;
+    }
+
+    .bloc_lodging {
+        background-color: white;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .title_lodging {
+        padding: 0 20px;
+    }
+
+    .lcard_list {
+        flex-direction: column;
+        padding: 0 20px 0 20px;
+        row-gap: 20px;
+    }
+
+    .lcard {
+        width: 100%;
+    }
+
+    .more_content {
+        padding: 0 20px;
+        margin-block-end: 20px;
+    }
+
+    .bloc_famous {
+        width: 100%;
+        border-radius: 0;
+        padding: 0 20px;
+    }
+
+    .fcard_list {
+        gap: 20px;
+    }
+
+    /* * Bloc "Activités à Marseille" (Third section) */
+
+    .title_activity {
+        padding: 0 20px 0 20px;
+    }
+
+    .activity_list {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .activity_1,
+    .activity_2,
+    .activity_3,
+    .activity_4 {
+        width: auto;
+        flex: 1;
+        padding: 15px 20px;
+    }
+
+    .big_card,
+    .medium1_card,
+    .small1_card,
+    .small2_card,
+    .medium2_card {
+        height: 200px;
+    }
+
+    .bigacard_img,
+    .medium1_img,
+    .small1_img,
+    .small2_img,
+    .medium2_img {
+        height: 140px;
+    }
+
+    /* * Bloc footer */
+
+    footer {
+        padding: 30px 20px;
+    }
+
+    .footer_list {
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 30px;
+    }
+}

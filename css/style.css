@@ -32,6 +32,7 @@ p {
 
 header {
     display: flex;
+    flex-direction: row;
     height: 100px;
     padding: 0 60px;
 }
@@ -136,7 +137,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-width: 135px;
+    width: 135px;
     height: 100%;
     border: none;
     background-color: #0065FC;
@@ -273,6 +274,7 @@ button {
 .lcard_list {
     padding: 0 40px 0 40px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
     row-gap: 40px;
@@ -284,7 +286,6 @@ button {
     background-color: white;
     border-radius: 20px;
     box-shadow: -4px 4px 11px 5px rgb(0 0 0 / 20%);
-
 }
 
 .lcard:hover {
@@ -705,6 +706,7 @@ footer {
 .footer_list {
     display: flex;
     flex: 1;
+    flex-direction: row;
     justify-content: flex-start;
     gap: 20%;
 }
