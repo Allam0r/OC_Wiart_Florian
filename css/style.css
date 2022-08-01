@@ -33,6 +33,7 @@ p {
 header {
     display: flex;
     flex-direction: row;
+    align-items: center;
     height: 100px;
     padding: 0 60px;
 }
@@ -47,10 +48,12 @@ header a {
 #logo {
     height: 100%;
     width: auto;
+    margin: 0;
 }
 
 nav {
     height: 100%;
+    width: auto;
     display: flex;
     align-items: center;
 }
@@ -62,11 +65,14 @@ nav a {
     align-items: center;
     justify-content: center;
     border-top: 3px solid rgba(0, 0, 0, 0);
+    border-bottom: none;
+    padding-bottom: 0;
 }
 
 nav a:hover {
     color: #0065FC;
     border-top: 3px solid #0065FC;
+    border-bottom: none;
 }
 
 /* *Css du bloc main (first section) */
@@ -77,6 +83,7 @@ main {
 
 .first_section {
     padding: 0;
+    gap: 0;
 }
 
 .title_first {
@@ -108,7 +115,7 @@ main {
     align-items: center;
     justify-content: center;
     background-color: #f2f2f2;
-    min-width: 55px;
+    width: 55px;
     height: 100%;
     font-size: 18px;
     border-radius: 15px 0 0 15px;
@@ -153,8 +160,18 @@ button {
 
 #mobile_button {
     display: none;
+    align-items: center;
+    justify-content: center;
     border-radius: 15px;
     width: 50px;
+    height: 100%;
+    border: none;
+    background-color: #0065FC;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0;
+    transform: translateX(-10px);
 }
 
 /* *Css de la barre des filtres*/
@@ -290,7 +307,7 @@ button {
     height: 210px;
     background-color: white;
     border-radius: 20px;
-    box-shadow: -4px 4px 11px 5px rgb(0 0 0 / 20%);
+    box-shadow: -4px 4px 11px 5px rgb(0 0 0 / 5%);
 }
 
 .lcard:hover {
@@ -390,7 +407,7 @@ button {
     height: 145px;
     background-color: white;
     border-radius: 20px;
-    box-shadow: -4px 4px 11px 5px rgb(0 0 0 / 20%);
+    box-shadow: -4px 4px 11px 5px rgb(0 0 0 / 5%);
 }
 
 .fcard:hover {

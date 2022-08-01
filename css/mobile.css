@@ -5,11 +5,32 @@
     header {
         flex-direction: column;
         padding: 0;
-        align-items: center;
+        height: auto;
     }
 
     header a {
         padding: 0;
+    }
+
+    #logo {
+        height: 65px;
+        margin: 15px 0;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    nav a {
+        width: 50%;
+        border-top: none;
+        border-bottom: 3px solid #f2f2f2;
+        padding-bottom: 10px;
+    }
+
+    nav a:hover {
+        border-top: none;
+        border-bottom: 3px solid #0065FC;
     }
 
     /* *Css du bloc main (first section) */
@@ -30,12 +51,21 @@
         padding: 0 20px;
     }
 
+    .loc_icon {
+        width: 15%;
+    }
+
+    input {
+        width: 70%;
+    }
+
     button {
         display: none;
     }
 
     #mobile_button {
         display: flex;
+        width: 15%;
     }
 
     /* *Css de la barre des filtres*/
@@ -43,6 +73,10 @@
     .filter_list {
         padding: 0 20px;
         gap: 0;
+    }
+
+    .filter_box {
+        margin-right: 0px;
     }
 
     .info {
