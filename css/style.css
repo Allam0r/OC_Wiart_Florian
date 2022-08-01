@@ -85,11 +85,12 @@ main {
 
 .title_first h1 {
     font-size: 23px;
-    padding-bottom: 10px;
+    padding: 0 0 10px 0;
 }
 
 .title_first p {
     font-size: 18px;
+    padding: 0;
 }
 
 /* *Css de la barre de recherche*/
@@ -99,6 +100,7 @@ main {
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 0;
 }
 
 .loc_icon {
@@ -152,6 +154,7 @@ button {
 #mobile_button {
     display: none;
     border-radius: 15px;
+    width: 50px;
 }
 
 /* *Css de la barre des filtres*/
@@ -162,6 +165,7 @@ button {
     flex-direction: row;
     flex-wrap: wrap;
     margin: 25px 0;
+    padding: 0;
     gap: 15px;
 }
 
@@ -225,6 +229,7 @@ button {
     align-items: center;
     height: 25px;
     gap: 10px;
+    padding: 0;
 }
 
 .info p {
