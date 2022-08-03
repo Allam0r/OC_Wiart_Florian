@@ -79,6 +79,11 @@
 
   .info {
     padding: 0 20px;
+    align-items: flex-start;
+  }
+  .info p {
+    font-size: 15px;
+    line-height: 1.75;
   }
 
   /* * Css du bloc "Hébergements Marseille" (second section) */
